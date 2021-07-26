@@ -1,0 +1,35 @@
+{
+  "name": "vue_first",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel-plugin-component": "^1.1.1",
+    "core-js": "^2.6.5",
+    "echarts": "^5.1.2",
+    "element-ui": "^2.15.3",
+    "eslint-plugin-vue": "^7.13.0",
+    "lodash": "^4.17.21",
+    "nprogress": "^0.2.0",
+    "vant": "^2.1.8",
+    "vue": "^2.6.10",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.0.3",
+    "vue-table-with-tree-grid": "^0.2.4",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2"
+  }
+}

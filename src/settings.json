@@ -1,0 +1,26 @@
+{
+    "editor.formatOnSave": true,//保存的时候是否自动格式化
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true//使用eslint进行修复（格式化）代码
+    },
+    "eslint.validate": [
+        //检查格式化的文件类型
+        "javascript",
+        "javascriptreact",
+        "html",
+        "typescript",
+        "vue",
+        "less",
+        "css",
+        "scss"
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
